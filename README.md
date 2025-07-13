@@ -1,3 +1,19 @@
+# Netflix Customer Data Analysis
+
+## Problem Statement
+The streaming platforms like Netflix experience customer churn across different demographics and subscription types, resulting in significant revenue loss. The company needs to identify key factors driving customer attrition and develop data-driven strategies to improve customer retention and optimize subscription offerings.
+
+## Dataset and Data Quality
+This dataset is sourced from kaggle. It contains data simulating customer behaviour. It has 5000 records with 14 features useful for churn prediction, business insighgts and customer segmentation.
+
+Dataset link: https://www.kaggle.com/datasets/abdulwadood11220/netflix-customer-churn-dataset/
+
+## Project Objectives
+- To build local database, connect database and create table to save our data for analysis
+- To insert data into table from csv file.
+- To perform following analysis and build insights from the data.
+      - Customer distribution by Age Group
+
 ```sql
 CREATE TABLE netflix_customer(
     customer_id VARCHAR(50) PRIMARY KEY,
